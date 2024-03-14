@@ -57,4 +57,4 @@ https://github.com/psydiamond-github/netology/commit/ef3a30e642f7dd7638dd13ef837
 
 https://github.com/psydiamond-github/netology/network
 
-<img src = "img/img1.png" width = 100%>
+<img src = "img/git.png" width = 100%>
