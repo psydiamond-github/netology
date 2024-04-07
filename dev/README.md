@@ -29,7 +29,7 @@
 #
 ### Решение 2
 <img src = "img/Screenshot_20240407_210313.png" width = 100%>
-<img src = "img/Screenshot_20240426_210413.png" width = 100%>
+<img src = "img/Screenshot_20240426_210426.png" width = 100%>
 #
 ### Задание 3
 Что нужно сделать:
