@@ -13,8 +13,8 @@
 #
 ### Решение 1
 <img src = "img/Screenshot_20240407_165415.png" width = 100%>
-<img src = "img/Screenshot_20240407_165447.png" width = 100%>
 <img src = "img/Screenshot_20240407_165430.png" width = 100%>
+<img src = "img/Screenshot_20240407_165447.png" width = 100%>
 <img src = "img/Screenshot_20240407_175159.png" width = 100%>
 <img src = "img/Screenshot_20240407_175135.png" width = 100%>
 
