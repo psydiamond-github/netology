@@ -12,6 +12,11 @@
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 #
 ### Решение 1
+<img src = "img/Screenshot_20240407_175159.png" width = 100%>
+<img src = "img/Screenshot_20240407_175153.png" width = 100%>
+<img src = "img/Screenshot_20240407_165447.png" width = 100%>
+<img src = "img/Screenshot_20240407_165430.png" width = 100%>
+<img src = "img/Screenshot_20240407_165415.png" width = 100%>
 #
 ### Задание 2
 Что нужно сделать:
