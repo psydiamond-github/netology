@@ -29,9 +29,9 @@
 #
 ### Решение 2
 <img src = "img/Screenshot_20240407_210313.png" width = 100%>
-<img src = "img/Screenshot_20240407_211128.png" width = 100%>
-<img src = "img/Screenshot_20240407_211119.png" width = 100%>
 <img src = "img/Screenshot_20240407_211114.png" width = 100%>
+<img src = "img/Screenshot_20240407_211119.png" width = 100%>
+<img src = "img/Screenshot_20240407_211128.png" width = 100%>
 
 #
 ### Задание 3
