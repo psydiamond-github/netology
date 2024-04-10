@@ -46,7 +46,7 @@
 #
 ### Решение 3
 #
-<img src = "img/Screenshot__20240410_152902.png" width = 100%>
-<img src = "img/Screenshot__20240410_152929.png" width = 100%>
-<img src = "img/Screenshot__20240410_152945.png" width = 100%>
-<img src = "img/Screenshot__20240410_152949.png" width = 100%>
+<img src = "img/Screenshot_20240410_152902.png" width = 100%>
+<img src = "img/Screenshot_20240410_152929.png" width = 100%>
+<img src = "img/Screenshot_20240410_152945.png" width = 100%>
+<img src = "img/Screenshot_20240410_152949.png" width = 100%>
