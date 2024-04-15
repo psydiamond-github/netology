@@ -71,7 +71,7 @@ wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix
 dpkg -i zabbix-release_6.0-4+ubuntu20.04_all.deb
 apt update
 apt install zabbix-agent2 zabbix-agent2-plugin-*
-systemctl start --now zabbix-agent2
+systemctl enable --now zabbix-agent2
 vim /etc/zabbix/zabbix_agent2.conf #правка IP сервера zabbix в поле 'Server=192.168.122.94'
 systemctl restart zabbix-agent2
 ```
