@@ -27,3 +27,8 @@
 
 ### Решение 2
 
+<img src = "Screenshot_20240521_191710.png" width = 100%>
+
+<img src = "Screenshot_20240521_191822.png" width = 100%>
+
+<img src = "Screenshot_20240521_192016.png" width = 100%>
