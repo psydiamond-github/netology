@@ -10,6 +10,14 @@
 
 ### Решение 1
 
+<img src = "router1.png" width = 100%>
+
+<img src = "router2.png" width = 100%>
+
+<img src = "shema.png" width = 100%>
+
+<a href="hsrp_advanced_1.pkt">Файл PKT</a>
+
 ### Задание 2
 - Запустите две виртуальные машины Linux, установите и настройте сервис Keepalived как в лекции, используя пример конфигурационного [файла](1/keepalived-simple.conf).
 - Настройте любой веб-сервер (например, nginx или simple python server) на двух виртуальных машинах
