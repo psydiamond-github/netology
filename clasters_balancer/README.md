@@ -23,3 +23,8 @@
 
 ### Решение 2
 
+<img src = "Screenshot_20240604_231915.png" width = 100%>
+
+<img src = "Screenshot_20240604_231805.png" width = 100%>
+
+<a href="haproxy2.cfg">Файл конфигурации haproxy</a>
