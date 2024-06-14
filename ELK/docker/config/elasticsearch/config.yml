@@ -1,0 +1,5 @@
+cluster.name: "netology-test"
+network.host: 0.0.0.0
+
+#xpack.security.enabled
+xpack.license.self_generated.type: basic
