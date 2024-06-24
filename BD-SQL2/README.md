@@ -26,4 +26,4 @@
 
 ### Решение 3
 
-<img src = "Screenshot_20240623_215710.png" width = 100%>
+<img src = "Screenshot_20240624_222554.png" width = 100%>
