@@ -26,6 +26,12 @@
 
 <img src = "Screenshot_20240722_232022.png" width = 100%>
 
+Уязвимости:
+
+<a href="https://www.exploit-db.com/exploits/40962">OpenSSH < 7.4</a>
+<a href="https://www.exploit-db.com/exploits/17491">vsftpd 2.3.4</a>
+<a href="https://www.exploit-db.com/exploits/30020">MySQL 5.0.x</a>
+
 ### Задание 2
 
 Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
