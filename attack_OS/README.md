@@ -28,9 +28,9 @@
 
 Уязвимости:
 
-<a href="https://www.exploit-db.com/exploits/40962">OpenSSH < 7.4</a>
-<a href="https://www.exploit-db.com/exploits/17491">vsftpd 2.3.4</a>
-<a href="https://www.exploit-db.com/exploits/30020">MySQL 5.0.x</a>
+<p><a href="https://www.exploit-db.com/exploits/40962">OpenSSH < 7.4</a></p>
+<p><a href="https://www.exploit-db.com/exploits/17491">vsftpd 2.3.4</a></p>
+<p><a href="https://www.exploit-db.com/exploits/30020">MySQL 5.0.x</a></p>
 
 ### Задание 2
 
