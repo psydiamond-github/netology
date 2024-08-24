@@ -1,6 +1,0 @@
----
-- name: enable filebeat
-  systemd:
-    name: filebeat
-    enabled: yes
-    state: started
