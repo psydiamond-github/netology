@@ -1,0 +1,15 @@
+#cloud-config
+users:
+  - name: slynko
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCx1+hXzbu9iVSpurtRI5A2UuvJkeoZ7KhQCxTWgRnpoxcPK2ywbnqR0Lzj2WMRXuJQxYyZzZakTHiTZ4191B2DjunW8IKaPKbqtohi6awnKRq9e/NQGp6bE+UvyIaLnTFEa+kgE2vZELmGFVX1EFtkBgrjdf1Um0RaQ81k5N9HTpGNhY48M2nS+CMyGvfeb+FNOaj2jHNKNhunVO7cNCMNIgbuEgNnR4kSzf/Fd5Pfx/sBHZvfpXGEUVwGVG0cIH0grLBbm+LCpGFLVVeRnszf4FWXIvuXCnk+CAMIxJgnx1kP/4N/3jwNqaG2Isy5If3QFcZUUW8Ndl6cHlR4064uu/K12TvX/8RE3e/bDClIJMf/HvktZsz+uK3laRy24L7m2a10DVFfRiKGOA8422ZDW3kr39DzOxFPXMtRLNU3jH83z0uijEYHfP9DQU+/BdWqPBpUe9S+vgBxg9LTHTC8bP2EyVwPnrNpJGla/ZDbRNwxCWlFm0FxuKf40jp/9Gc=
+
+disable_root: true
+timezone: Europe/Moscow
+repo_update: true
+repo_upgrade: true
+apt:
+  preserve_sources_list: true
