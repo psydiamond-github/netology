@@ -1,0 +1,41 @@
+
+[bastionhost]
+bastion-host ansible_host=51.250.69.56 ansible_ssh_user=slynko
+
+[webservers]
+web1 ansible_host=192.168.10.23
+web2 ansible_host=192.168.20.21
+
+[prometheus]
+prometheus-host ansible_host=192.168.30.11
+
+[grafana]
+grafana-host ansible_host=192.168.30.6
+
+[elasticsearch]
+elasticsearch-host ansible_host=192.168.30.30
+
+[kibana]
+kibana-host ansible_host=192.168.30.22
+
+[webservers:vars]
+ansible_ssh_user=slynko
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p slynko@51.250.69.56"'
+
+[prometheus:vars]
+ansible_ssh_user=slynko
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p slynko@51.250.69.56"'
+
+[grafana:vars]
+ansible_ssh_user=slynko
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p slynko@51.250.69.56"'
+
+[elasticsearch:vars]
+ansible_ssh_user=slynko
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p slynko@51.250.69.56"'
+
+[kibana:vars]
+ansible_ssh_user=slynko
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p slynko@51.250.69.56"'
+
+
