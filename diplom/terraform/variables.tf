@@ -1,4 +1,6 @@
-variable "token_ya" {}
+variable "token_ya" {
+  default = "y0_AgAAAAABC_npAATuwQAAAAD9QKJcAAD7XiLSnHpFm6Dxpvgxow9FN0gTow"
+}
 
 variable "folder_id_ya" {
   default = "b1g6epuafplhu831ge1h"

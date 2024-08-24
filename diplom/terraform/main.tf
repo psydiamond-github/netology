@@ -38,7 +38,7 @@ resource "yandex_vpc_subnet" "subnet-2" {
 
 resource "yandex_vpc_subnet" "subnet-3" {
   name           = "subnet3"
-  zone           = "ru-central1-d"
+  zone           = "ru-central1-a"
   network_id     = yandex_vpc_network.network-1.id
   route_table_id = yandex_vpc_route_table.rt.id
   v4_cidr_blocks = ["192.168.30.0/24"]
@@ -325,7 +325,7 @@ resource "yandex_compute_instance" "bastion-host" {
 
   name = "bastion-host"
   hostname = "bastion-host"
-  zone = "ru-central1-d"
+  zone = "ru-central1-a"
 
   resources {
     cores = 2
@@ -336,7 +336,7 @@ resource "yandex_compute_instance" "bastion-host" {
   boot_disk {
     initialize_params {
       image_id = "${var.image_id_ya}"
-      size = 5
+      size = 8
     }
   }
 
@@ -422,7 +422,7 @@ resource "yandex_compute_instance" "prometheus" {
 
   name = "prometheus"
   hostname = "prometheus"
-  zone = "ru-central1-d"
+  zone = "ru-central1-a"
 
   resources {
     cores  = 2
@@ -453,7 +453,7 @@ resource "yandex_compute_instance" "grafana" {
 
   name = "grafana"
   hostname = "grafana"
-  zone = "ru-central1-d"
+  zone = "ru-central1-a"
 
   resources {
     cores  = 2
@@ -484,7 +484,7 @@ resource "yandex_compute_instance" "elasticsearch" {
 
   name = "elasticsearch"
   hostname = "elasticsearch"
-  zone = "ru-central1-d"
+  zone = "ru-central1-a"
 
   resources {
     cores  = 4
@@ -515,7 +515,7 @@ resource "yandex_compute_instance" "kibana" {
 
   name = "kibana"
   hostname = "kibana"
-  zone = "ru-central1-d"
+  zone = "ru-central1-a"
 
   resources {
     cores  = 4
