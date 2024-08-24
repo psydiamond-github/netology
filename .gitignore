@@ -3,7 +3,9 @@ cache/*
 diplom/*.bak
 diplom/terraform/.terraform.lock.hcl
 diplom/terraform/.terraform
+diplom/.terraform
 diplom/terraform/terraform.tfstate
 diplom/terraform/terraform.tfstate.backup
 diplom/terraform/variables.tf
+diplom/variables.tf
 diplom/ansible/hosts
