@@ -1,0 +1,10 @@
+---
+- name: nginx
+  hosts: terraform
+  remote_user: user
+  tasks:
+    - service:
+        name: nginx
+        state: started
+      become: yes
+      become_method: sudo
