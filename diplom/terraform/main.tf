@@ -365,7 +365,7 @@ resource "yandex_compute_instance" "web-server1" {
   resources {
     cores = 2
     memory = 2
-    core_fraction = 100
+    core_fraction = 20
   }
 
   boot_disk {
@@ -396,7 +396,7 @@ resource "yandex_compute_instance" "web-server2" {
   resources {
     cores  = 2
     memory = 2
-    core_fraction = 100
+    core_fraction = 20
   }
 
   boot_disk {
@@ -427,7 +427,7 @@ resource "yandex_compute_instance" "prometheus" {
   resources {
     cores  = 2
     memory = 2
-    core_fraction = 100
+    core_fraction = 20
   }
 
   boot_disk {
@@ -458,7 +458,7 @@ resource "yandex_compute_instance" "grafana" {
   resources {
     cores  = 2
     memory = 2
-    core_fraction = 100
+    core_fraction = 20
   }
 
   boot_disk {
@@ -489,7 +489,7 @@ resource "yandex_compute_instance" "elasticsearch" {
   resources {
     cores  = 4
     memory = 8
-    core_fraction = 100
+    core_fraction = 20
   }
 
   boot_disk {
@@ -520,7 +520,7 @@ resource "yandex_compute_instance" "kibana" {
   resources {
     cores  = 4
     memory = 8
-    core_fraction = 100
+    core_fraction = 20
   }
 
   boot_disk {
